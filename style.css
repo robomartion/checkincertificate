@@ -1,0 +1,71 @@
+html{
+    font-family: 'Depot';
+    background-color: rgb(103, 23, 39);
+}
+
+body{
+}
+
+.container{
+    margin-top: 100px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h2{
+    text-align: center;
+    color: gainsboro;
+
+}
+
+.name {
+    background-color: rgba(1, 165, 97, 0.911);
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    margin: 14px;
+    padding: 15px;
+    background-image: url("greentick.svg");
+    background-size: 28px;
+    background-repeat: no-repeat;
+    background-position-x: 15px;
+    background-position-y: 10px;
+    padding-left: 55px;
+}
+
+.footer{
+    position:  absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 15px;
+}
+
+.bottombutton{
+    background-color: rgb(249, 119, 24);
+    color: rgb(103, 23, 39);
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    
+    margin: auto;
+    width: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+    position: relative;
+  bottom: 0;
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

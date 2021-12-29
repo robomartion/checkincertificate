@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check-in</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylefont.css">
+    
+
+    <script>
+        function testVariable() {
+            var strText = document.getElementById("textone").value;          
+            var strText1 = document.getElementById("textTWO").value;
+            document.getElementById('spanResult1').textContent = strText;
+            document.getElementById('spanResult2').textContent = strText1;             
+        }
+        function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+    </script>
+
+</head>
+
+
+
+<div id="myDIV">
+    <p>Name of venue<input type="text" id="textone" /></p>
+    <p>Your name <input type="text" id="textTWO" /></p>
+    <button  onclick="testVariable(); myFunction();">Submit</button> <br />
+    
+</div>
+
+<body>
+<div class="container">
+
+    <img src="tick.svg" width="150px">
+    <h2>Thanks, you've checked in at</h2>
+    <h1><span id="spanResult1"></span></h1>
+    <a style="text-decoration: none; color:white" href="certificate.html"><div class="name">
+        <span id="spanResult2"></a>
+    </span>
+  </div>
+
+</div>
+
+<div class="footer">
+<div class="bottombutton">
+  Done
+  </div>
+</div>
+
+</body>
+
+</html>
