@@ -95,7 +95,7 @@ margin-bottom:0px;
 
 @media only screen and (max-width: 600px) {
   .header{
-    background-size: 100px;
+    background-size: 60px;
 width: 400px;
 background-position: center;
 padding-right: 200px;
@@ -176,7 +176,7 @@ display:none;
 @media only screen and (max-width: 600px) {
   .gov2{
 background-color: #197c44;
-width:100px;
+width:150px;
 margin-bottom:0px;
 display:block;
   }
